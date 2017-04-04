@@ -10,3 +10,7 @@ li {
     display: inline;
     margin-left: 100px;
 }
+
+.home{
+    background-image: url("balloon-3-.jpg"); 
+}
