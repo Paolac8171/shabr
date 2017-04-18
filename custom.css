@@ -21,6 +21,15 @@ body {
     background: linear-gradient(90deg, rgba(255, 204, 204, 0.75), rgba(255, 153, 204,0.75));
     border: 5px;
 }
+#h1home{
+    font-family: 'Marcellus SC', serif;
+}
+#h3home{
+    font-family: 'Berkshire Swash', cursive;
+}
+#pinfo{
+    
+}
 
 #landing {
     display: table;
@@ -44,7 +53,7 @@ body {
         font-size: 60px;
     }
     #h2land {
-        font-size: 40px;
+        font-size: 20px;
     }
     #pinfo{
         font-size: 16px;
@@ -56,7 +65,7 @@ body {
         font-size: 80px;
     }
     #h2land {
-        font-size: 60px;
+        font-size: 40px;
     }
     #pinfo{
         font-size: 20px;
@@ -65,10 +74,10 @@ body {
 
 @media(min-width:1200px) {
     #h1land {
-        font-size: 100px;
+        font-size: 120px;
     }
     #h2land {
-        font-size: 80px;
+        font-size: 60px;
     }
     #pinfo{
         font-size: 25px;
@@ -79,28 +88,33 @@ body {
     opacity: 0.9;
     text-align: center;
     padding:30px;
+    font-family: 'Sigmar One', cursive;
 }
 #info{
     background: linear-gradient(rgba(64, 128, 191, 0.5), rgba(102, 102, 153, 0.75));
     opacity: 0.9;
     text-align: center;
     padding: 30px;
+    font-family: 'Sigmar One', cursive;
 }
 #gallery{
     background: linear-gradient(rgba(170, 128, 255, 0.75), rgba(153, 204, 255, 0.5));
     text-align: center;
     padding: 30px;
+    font-family: 'Sigmar One', cursive;
 }
 #testmon{
     background: linear-gradient(rgba(153, 204, 255, 0.5), rgba(170, 128, 255, 0.75));
     text-align: center;
     padding: 30px;
+    font-family: 'Sigmar One', cursive;
 }
 #contact{
     background: linear-gradient(rgba(111, 220, 220, 0.85), rgba(102, 153, 255, 0.5));
     text-align: center;
     padding: 30px;
     margin-top: 30px;
+    font-family: 'Sigmar One', cursive;
 }
 span.glyphicon-cloud{
     font-size: 3.5em;
@@ -121,6 +135,8 @@ span.glyphicon-send{
 }
 h3{
     text-align: center;
+    font-family: 'Merienda One', cursive;
+    font-size: 30px;
 }
 address{
     text-align: center;
@@ -149,4 +165,10 @@ h4{
     margin-right: auto;
     display: block;
     
+}
+#h1land{
+    font-family: 'Aladin', cursive;
+}
+#h2land{
+    font-family: 'Oswald', sans-serif;
 }
